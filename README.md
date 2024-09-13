@@ -14,7 +14,7 @@ Supports all HoYoverse games. Can configure for multiple accounts
 
 ## Setup
 1. Go to [Google Apps Script](https://script.google.com/home/start) and create a project with any name.
-2. Select the editor and paste the code( [](https://github.com/canaria3406/hoyolab-auto-sign/blob/main/src/main-discord.gs)). Refer to the instructions below to configure the config file and save it.
+2. Select the editor and paste the code( [Check-In-Script](https://github.com/Jamejia04/HoYoLAB-Daily-Check-In-Automator-/blob/main/src/check-in-script.gs). Refer to the instructions below to configure the config file and save it.
 3. Select "main" and click the "Run" button at the top.
    Grant the necessary permissions and confirm that the configuration is correct (Execution started > completed).
 4. Click the trigger button on the left side and add a new trigger.
