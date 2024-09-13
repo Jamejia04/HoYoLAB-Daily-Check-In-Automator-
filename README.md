@@ -5,6 +5,13 @@
 A free script that automatically collects HoYoLAB daily check in rewards.
 Supports all HoYoverse games. Can configure for multiple accounts
 
+## Features
+* **Easy to Use** - Only needs to be set up once!
+* **Simple** - Minimal configuration and is only around 100 lines of code.
+* **Secure** - Can be self-deployed to Google Apps Script, no worries about sketchy downloads or data leaks.
+* **Free** - Google Apps Script is completely free to use. 
+* **Notifications** - Can enable notifications for discord.   
+
 ## Setup
 1. Go to [Google Apps Script](https://script.google.com/home/start) and create a project with any name.
 2. Select the editor and paste the code( [](https://github.com/canaria3406/hoyolab-auto-sign/blob/main/src/main-discord.gs)). Refer to the instructions below to configure the config file and save it.
@@ -21,7 +28,7 @@ Supports all HoYoverse games. Can configure for multiple accounts
 ```javascript
 const profiles = [
   {
-    token: "ltoken_v2=v2_CANARIAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX3406; ltuid_v2=26XXXXX20;",
+    token: "ltoken_v2=v2_XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX3406; ltuid_v2=26XXXXX20;",
     genshin: true,
     honkai_star_rail: true,
     honkai_3: false,
@@ -91,7 +98,7 @@ const discordWebhook = "https://discord.com/api/webhooks/1050000000000000060/6aX
 3. **discordWebhook** - Please enter the Discord webhook for the server channel to send notify.
 
    Refer to [this article](https://support.discord.com/hc/en-us/articles/228383668) to create a Discord webhook.
-   When finished creating the Discord webhook, you will receive your Discord webhook URL, which will look like `https://discord.com/api/webhooks/1234567890987654321/PekopekoPekopekoPekopeko06f810494a4dbf07b726924a5f60659f09edcaa1`.
+   When finished creating the Discord webhook, you will receive your Discord webhook URL, which will look like `https://discord.com/api/webhooks/1234567890987654321/foodfoodfoodfood06f810494a4dbf07b726924a5f60659f09edcaa1`.
    Copy the URL and paste it in "quotes".
 
 </details>
